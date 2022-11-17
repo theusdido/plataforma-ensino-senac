@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { CalendarioescolarComponent } from './calendarioescolar/calendarioescolar.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
-  bootstrap:    [ AppComponent ]
+  declarations: [ AppComponent, HelloComponent, CalendarioescolarComponent ],
+  bootstrap:    [ CalendarioescolarComponent ]
 })
 export class AppModule { }

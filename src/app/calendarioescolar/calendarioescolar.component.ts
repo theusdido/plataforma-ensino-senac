@@ -1,15 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-calendarioescolar',
+  selector: 'my-app',
   templateUrl: './calendarioescolar.component.html',
-  styleUrls: ['./calendarioescolar.component.css']
+  styleUrls: ['./calendarioescolar.component.css'],
 })
 export class CalendarioescolarComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
