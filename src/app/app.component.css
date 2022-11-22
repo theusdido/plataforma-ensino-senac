@@ -9,3 +9,12 @@ hr{
   height: 2px;
   width:100%
 }
+h2{
+  font-size: 17px;
+  margin-left: 3%;
+}
+.feedback2{
+  border: 1px solid black;
+  width:70%;
+  height:100px;
+}
